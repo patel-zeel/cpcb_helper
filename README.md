@@ -1,1 +1,10 @@
 # cpcb_helper
+
+## Steps
+### `get_site_IDs.ipynb`
+- Follow the instructions in the notebook to get the site IDs for all the CPCB CAAQMS. This will save the site IDs in a file called `site_ids.csv` in the `code` directory. `site_ids.csv` is .gitignored so it won't be pushed to the repository. This is done to avoid any conflicts with CPCB's data policy.
+- You'll need to manually go to the browser opened by selenium, solve a captcha and then further proceed with the next cell execution. 
+- This step has to be done interactively so if you are using a non-GUI environment, you can complete this step locally on your GUI machine since it is cheap and will take only seconds to run.
+### `download.ipynb`
+- This will download the data from the CPCB website and save it in the `files` directory. This may take a few minutes to few hours depending on the network speed and amount of parallelization. 
+- I ran it on 32 cores without giving a pause and CPCB didn't block my IP but this is not recommended.
