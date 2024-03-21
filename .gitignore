@@ -1,4 +1,5 @@
 files
 another_files
+*.out
 *.csv
 *.zip
