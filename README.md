@@ -4,7 +4,7 @@
 ### Steps
 #### `another_method.ipynb`
 - In this method, we directly scrap the data from the CPCB website which does not require any Captcha solving. We use headless selenium to automatically fill the form for each station and download the year-wise CSV files. 
-- This is a full-proof method since we do not do any pattern mathcing for URLs and directly download the dynamically retrived URLs.
+- This is a foolproof method since we do not do any pattern mathcing for URLs and directly download the dynamically retrived URLs.
 
 #### `scrap_lat_lon.ipynb`
 - This notebook helps scrapping coordinates of all the stations from the CPCB website. A manual Captcha solving is needed in the beginning and whenever the Captcha is asked again.
@@ -21,4 +21,4 @@
 #### `download.ipynb`
 - This will download the data from the CPCB website and save it in the `files` directory. This may take a few minutes to few hours depending on the network speed and amount of parallelization. 
 - I ran it on 32 cores without giving a pause and CPCB didn't block my IP but this is not recommended.
-- This is not the full-proof method in case where the download URLs do not match the pattern we think they have.x
+- This is not the foolproof method in case where the download URLs do not match the pattern we think they have.x
