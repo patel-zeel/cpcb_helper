@@ -21,4 +21,4 @@
 #### `download.ipynb`
 - This will download the data from the CPCB website and save it in the `files` directory. This may take a few minutes to few hours depending on the network speed and amount of parallelization. 
 - I ran it on 32 cores without giving a pause and CPCB didn't block my IP but this is not recommended.
-- This is not the full-proof method in case where the download URLs do not match the pattern we think they have.x
+- This is not the foolproof method in case where the download URLs do not match the pattern we think they have.x
